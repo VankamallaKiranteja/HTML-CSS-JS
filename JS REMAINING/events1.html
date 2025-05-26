@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./events1.js" defer></script>
+    <style>
+        .demo {
+            background-color: aqua;
+            border: 1px solid black;
+            width: 300px;
+            height: 200px;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+
+    <div>
+        <button onclick="getEventDetails(event)">Click me</button>
+        <input type="text" onchange="getEventDetails(event)" />
+    </div>
+
+    <div>
+        <button id="btn">Click Btn</button>
+    </div>
+
+    <div>
+        <button id="btn1">Click Btn1</button>
+    </div>
+
+    <div>
+        <input type="text" name="username" id="name" />
+    </div>
+
+    <div>
+        <button id="btn2">Click me</button>
+    </div>
+
+    <div>
+        <button id="mybtn">Try it</button>
+        <p id="demo"></p> 
+    </div>
+
+</body>
+</html>

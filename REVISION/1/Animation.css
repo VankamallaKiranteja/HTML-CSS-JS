@@ -1,0 +1,40 @@
+.box{
+  background-color: blueviolet;
+  height: 50px;
+  width: 50px;
+  animation:k 2s linear 3s infinite; 
+  /* animation-name: k;
+  animation-delay: 2s;
+  animation-duration: 0.5s;
+  animation-iteration-count:infinite;
+  animation-direction: alternate-reverse; */
+}
+@keyframes ki {
+  0%{
+    background-color: aqua;
+  }
+  50%{
+    background-color:greenyellow;
+    height: 77px;
+    width: 77px;
+    border-radius: 50%;
+  }
+  100%{
+    background-color: brown;
+    border-radius: 50%;
+
+  }
+}
+span{
+  background-color: aqua;
+}
+.box2{
+  background-color: crimson;
+  height: 100px;
+  width: 100px;
+}
+@media(width:100px){
+  .box2{
+    background-color: cyan;
+  }
+}

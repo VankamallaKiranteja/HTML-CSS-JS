@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Personal Information Form</title>
+   <style>
+      table, th, td {
+         border: 2px solid blue;
+         border-collapse: collapse;
+         padding: 8px;
+         text-align: left;
+      }
+      table {
+         margin-top: 20px;
+      }
+   </style>
+   <script src="./events4.js" defer></script>
+</head>
+<body>
+   <form id="form">
+      <fieldset>
+         <legend>Personal Information</legend>
+
+         <label for="firstname">First Name:</label>
+         <input type="text" id="firstname" name="firstname" required>
+
+         <label for="middlename">Middle Name:</label>
+         <input type="text" id="middlename" name="middlename" required>
+
+         <label for="lastname">Last Name:</label>
+         <input type="text" id="lastname" name="lastname" required><br>
+
+         <label for="fathername">Father Name:</label>
+         <input type="text" id="fathername" name="fathername" required>
+
+         <label for="mothername">Mother Name:</label>
+         <input type="text" id="mothername" name="mothername" required><br>
+
+         <label for="currentaddress">Current Address:</label>
+         <textarea id="currentaddress" name="currentaddress" rows="5" cols="20"></textarea>
+
+         <label for="permanentaddress">Permanent Address:</label>
+         <textarea id="permanentaddress" name="permanentaddress" rows="5" cols="20"></textarea>
+
+         <button type="submit">Submit</button>
+      </fieldset>
+   </form>
+</body>
+</html>

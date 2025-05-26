@@ -1,0 +1,45 @@
+#F1{
+  text-transform:uppercase;
+  text-decoration: solid;
+  color:red;
+}
+body{
+  background-color: azure;
+}
+.flexboxes{
+  background-color: black;
+  height: 600px;
+  width: 600px;
+  display: flex;
+  flex-direction:row; 
+  justify-content:space-around;
+  align-items: center; 
+  
+}
+#box1{
+  background-color: blueviolet;
+  height: 50px;
+  width: 50px;
+}
+#box2{
+  background-color: blueviolet;
+  height: 50px;
+  width: 50px;
+}#box3{
+  background-color: blueviolet;
+  height: 50px;
+  width: 50px;
+}#box4{
+  background-color: blueviolet;
+  height: 50px;
+  width: 50px;
+}
+#box5{
+  background-color: blueviolet;
+  height: 50px;
+  width: 50px;
+}#box6{
+  background-color: blueviolet;
+  height: 50px;
+  width: 50px;
+}

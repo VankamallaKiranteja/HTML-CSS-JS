@@ -1,0 +1,20 @@
+*{
+  background-color: aliceblue;
+}
+#MH{
+  Color:RED;
+  text-align: center;
+  text-decoration: dotted;
+  text-transform: capitalize;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: 900;
+}
+.ol1{
+  color:blueviolet
+}
+h1{
+  color:brown;
+}
+ol,li{
+  color:blueviolet;
+}

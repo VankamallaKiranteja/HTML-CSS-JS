@@ -1,0 +1,133 @@
+*{
+  background-color:silver;
+}
+.BOXES{
+  background-color: azure;
+  display: flex;
+
+}
+.boxmodel{
+  color: blue;
+  background-color: beige;
+  height: 100px;
+  width:100px;
+  text-align: center;
+  border:2px solid black;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding:30px 30px 30px 30px;
+  margin: 50px;
+}
+ .traffic{
+  background-color:black;
+  height: 180px;
+  width:50px;
+}
+#red{
+  background-color: red;
+  height:50px;
+  width:50px;
+  border-radius:50%;
+  /* display: inline-block; */
+  margin-bottom:10px;
+}
+#yellow{
+  background-color: yellow;
+  height: 50px;
+  width: 50px;
+  border-radius:50%;
+  /* display: inline-block; */
+  margin-bottom:10px;
+
+}
+#green{
+  background-color:green;
+  height:50px;
+  width: 50px;
+  /* display: inline-block; */
+  border-radius: 50%;
+} 
+/* .boxes{ */
+  /* background-color: blueviolet;
+  height: 500px;
+  width: 500px;
+}
+.box{
+  background-color: aqua;
+  height: 50px;
+  width:50px;
+} */
+
+.boxe{
+  color:chartreuse;
+  display: inline-block;
+}
+#box{
+  background-color: red;
+  display: inline;
+}
+#box1{
+  background-color: red;
+  visibility:hidden;
+}
+h1{
+  color:brown;
+}
+.pboxes
+{
+  background-color: black;
+  height:200px;
+  width: 250px;
+  display: flex;
+
+}
+#pbox1{
+  background-color: blue;
+  height: 50px;
+  width: 50px;
+  margin:10px;
+  position:relative;
+  top: 80px; 
+}
+#pbox2{
+  background-color: blue;
+  height: 50px;
+  width: 50px;
+  margin:10px;
+  position:static;
+  bottom:20px;
+}
+#pbox3{
+  background-color: blue;
+  height: 50px;
+  width: 50px;
+  margin:10px;
+  position:absolute;
+}
+#pbox4{
+  background-color: blue;
+  height: 50px;
+  width: 50px;
+  margin:10px;
+  position:fixed;
+  top: 7px;
+  right: 7px;
+
+}
+#pbox5{
+  background-color: blue;
+  height: 50px;
+  width: 50px;
+  margin:10px;
+  position:sticky;
+  top: 7px;
+}
+.body{
+  background-image: url("one.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 500px;
+}

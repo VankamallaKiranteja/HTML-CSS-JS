@@ -1,0 +1,25 @@
+.box:hover{
+  background-color: blue;
+  transition: all 2s linear 0.2s;
+  height: 70px;
+  width: 70px;
+  transform: translate(500px);
+}
+.box{
+  background-color: blueviolet;
+  height:50px;
+  width: 50px;
+}
+.box2{
+  background-color: greenyellow;
+  height:50px;
+  width: 50px;
+}
+.box2:hover{
+  transform: translatex(200px);
+  transition-delay: 0.5s;
+}
+div{
+  display: inline-block;
+  margin-right: 50px;
+}
